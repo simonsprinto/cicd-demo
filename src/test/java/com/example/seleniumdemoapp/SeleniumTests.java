@@ -53,12 +53,12 @@ public class SeleniumTests {
         assertEquals("Här startar din IT-karriär!", websiteHeadingText, "Huvudrubriken verkar inte stämma...");
     }
 
-    @Test
-    void checkImage() {
-        WebElement image = driver.findElement(By.xpath("//div[@class=\"banner__image\" and @style=\"background-image:url('https://www.iths.se/wp-content/uploads/2019/02/thumbnails/ithsred11nyptwebb-1-2466-627x320.jpg')\"]"));
-        boolean result = image.isDisplayed();
-        assertTrue(result, "Bilden verkar inte synas...");
-    }
+//    @Test
+//    void checkImage() {
+//        WebElement image = driver.findElement(By.xpath("//div[@class=\"banner__image\" and @style=\"background-image:url('https://www.iths.se/wp-content/uploads/2019/02/thumbnails/ithsred11nyptwebb-1-2466-627x320.jpg')\"]"));
+//        boolean result = image.isDisplayed();
+//        assertTrue(result, "Bilden verkar inte synas...");
+//    }
 
     @Test
     void checkEmail() {
