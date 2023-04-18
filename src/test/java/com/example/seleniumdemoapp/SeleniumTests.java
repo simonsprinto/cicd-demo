@@ -43,7 +43,7 @@ public class SeleniumTests {
     @Test
     void checkWebsiteTitle() {
         String websiteTitle = driver.getTitle();
-        assertEquals("IT-Högskolan – Här startar din IT-karriär!", websiteTitle, "Titeln verkar inte stämma...");
+        assertEquals("ITT-Högskolan – Här startar din IT-karriär!", websiteTitle, "Titeln verkar inte stämma...");
     }
 
     @Test
